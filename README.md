@@ -6,12 +6,12 @@ Filter all previous entries with more than five words in the title ordered by th
 Filter all previous entries with less than or equal to five words in the title ordered by points.
 
 ### Web crawler
-A Web crawler, sometimes called a spider or spiderbot and often shortened to crawler, is an Internet bot that systematically browses the World Wide Web, typically for the purpose of Web indexing (web spidering). [https://en.wikipedia.org/wiki/Web_crawler](Web_crawler)  In addition to indexing the world wide web, crawling can also be used to gather data (known as web scraping).
+A Web crawler, sometimes called a spider or spiderbot and often shortened to crawler, is an Internet bot that systematically browses the World Wide Web, typically for the purpose of Web indexing (web spidering). [Web_crawler](https://en.wikipedia.org/wiki/Web_crawler)  In addition to indexing the world wide web, crawling can also be used to gather data (known as web scraping).
 
 ## Pre-requisites
 
 - Install Node v10.15.3
-- We are using tool to scraping  [https://cheerio.js.org/](Cheerio.js)
+- We are using tool to scraping  [Cheerio.js](https://cheerio.js.org/)
 - We are using Axios 
 
 
