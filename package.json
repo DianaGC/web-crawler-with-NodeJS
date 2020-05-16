@@ -1,0 +1,33 @@
+{
+  "name": "crawler",
+  "version": "1.0.0",
+  "description": "Create web crawler with node and cheerio",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DianaGC/web-crawler-with-NodeJS.git"
+  },
+  "keywords": [
+    "crawler",
+    "scraping",
+    "cheerio"
+  ],
+  "author": "Diana Guanotasig",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DianaGC/web-crawler-with-NodeJS/issues"
+  },
+  "homepage": "https://github.com/DianaGC/web-crawler-with-NodeJS#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cheerio": "^1.0.0-rc.3",
+    "jest": "^26.0.1",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5",
+    "underscore": "^1.10.2"
+  }
+}
