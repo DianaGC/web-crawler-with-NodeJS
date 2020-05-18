@@ -5,7 +5,7 @@ const { getNumberFromString } = require('./functions/functions')
 
 async function main(){
     try {
-        let n = 5;
+        let numberMaxOfWord = 5;
         let orderedDataByComments = [];
         let orderedDataByPoints = [];
         //service 
@@ -16,7 +16,7 @@ async function main(){
         let dataObjList = createObjectFromDataFilter(response.data);
 
         _.forEach(dataObjList, item =>{
-            item.title.split(" ").length > n ? orderedDataByComments.push(item) : orderedDataByPoints.push(item);
+            item.title.split(" ").length > numberMaxOfWord ? orderedDataByComments.push(item) : orderedDataByPoints.push(item);
         })
         console.log('---------Order data by Comment-------');
         orderedDataByComments.sort((x, y) => {
