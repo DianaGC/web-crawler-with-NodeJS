@@ -1,4 +1,5 @@
 const cheerio = require('cheerio');
+const _ = require('underscore');
 
 const filterDataFromURL = html => {
     let data =[];
@@ -24,7 +25,7 @@ const createObjectFromDataFilter = html =>{
         $(this).find('.subtext > a:last-child').text() ? comments.push({"comment":$(this).find('.subtext > a:last-child').text()}):'';
     });
 
-    for(let i = 0; i <titles.length ; i++)  dataObjList.push({ ...titles[i], ...points[i], ...comments[i] })
-    return  dataObjList
+    _.map(titles, (item, key)=>  dataObjList.push({ ...titles[key], ...points[key], ...comments[key] }))
+    return dataObjList
 }
 module.exports = {filterDataFromURL, createObjectFromDataFilter}

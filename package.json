@@ -29,5 +29,7 @@
     "request": "^2.88.2",
     "request-promise": "^4.2.5",
     "underscore": "^1.10.2"
+  },
+  "devDependencies": {    
   }
 }
